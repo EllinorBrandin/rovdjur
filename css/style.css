@@ -11,3 +11,23 @@
     'nv mn mn as'
     'ft ft ft ft'   
 }
+
+#header {
+    grid-area: hd;
+}
+
+#nav {
+    grid-area: nv;
+}
+
+#aside {
+    grid-area: as;
+}
+
+#main {
+    grid-area: mn;
+}
+
+#footer {
+    grid-area: ft;
+}
