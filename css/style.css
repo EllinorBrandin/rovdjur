@@ -1,1 +1,13 @@
 /* Denna fil skall innehålla din CSS kod */
+#container {
+    display:grid;
+    height:100vh;
+    grid-gap: 10px;
+    grid-template-rows: 100px 30px auto 150px;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-areas:
+    'hd hd hd hd '
+    'nv mn mn as'
+    'nv mn mn as'
+    'ft ft ft ft'   
+}
