@@ -1,4 +1,5 @@
 /* Denna fil skall innehålla din CSS kod */
+@media only screen and (max-width: 600px) {
 #container {
     display:grid;
     height:100vh;
@@ -6,10 +7,9 @@
     grid-template-rows: 100px 30px auto 150px;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     grid-template-areas:
-    'hd hd hd hd '
-    'nv mn mn as'
-    'nv mn mn as'
-    'ft ft ft ft'   
+   'hd hd hd hd'
+   'mn mn mn mn'
+   'as as as as'  
 }
 
 #header {
@@ -35,4 +35,5 @@
 #footer {
     grid-area: ft;
     background-color: silver;
+}
 }
