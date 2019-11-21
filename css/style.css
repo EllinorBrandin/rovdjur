@@ -14,20 +14,25 @@
 
 #header {
     grid-area: hd;
+    background-color: brown;
 }
 
 #nav {
     grid-area: nv;
+    background-color: cornflowerblue;
 }
 
 #aside {
     grid-area: as;
+    background-color: orangered;
 }
 
 #main {
     grid-area: mn;
+    background-color: peru;
 }
 
 #footer {
     grid-area: ft;
+    background-color: silver;
 }
