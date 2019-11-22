@@ -21,6 +21,10 @@
     
 }
 
+img {
+    margin-right: 2px;
+}
+
 header {
     grid-area: hd; 
     text-align: center;
