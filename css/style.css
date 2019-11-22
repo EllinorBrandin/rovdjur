@@ -1,6 +1,6 @@
 /* Denna fil skall innehålla din CSS kod */
 @media only screen and (max-width: 600px) {
-#mobil {
+#outer-grid {
     display:grid;
    /* height:100vh;
     grid-gap: 10px;
@@ -11,10 +11,11 @@
     background-color: white ;
     grid-gap: 12px;
     grid-template-areas:
+    
    
-    'hd hd'
-   'nv nv'
+   'hd hd'
    'mn mn'
+   'nv nv'
    'as as'
    'ft ft';
     
@@ -28,24 +29,40 @@ header {
     height: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-nav {
+div-1 {
     grid-area:nv;
     background-color: rgb(191, 231, 178);
     height:100px;
     text-align: center;
 }
-aside{
+
+#inner-grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+
+}
+
+#inner-grid > div{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+div-2{
     grid-area:as;
     background-color: rgb(191, 231, 178);
     text-align:center ;
 }
-main {
+div-3 {
     grid-area:mn;
     background-color: rgb(191, 231, 178);
     height: 500px;
     text-align: center;
 }
-footer {
+div-4 {
     grid-area:ft;
     background-color: rgb(191, 231, 178);
     height: 200px;
