@@ -1,4 +1,5 @@
 /* Denna fil skall innehålla din CSS kod */
+
 @media only screen and (max-width: 600px) {
 #outer-grid {
     display:grid;
@@ -9,7 +10,7 @@
     height:100vh;
     grid-template-columns: 2fr 1fr;
     background-color: white ;
-    grid-gap: 12px;
+    /*grid-gap: 12px; */
     grid-template-areas:
     
    
@@ -25,7 +26,7 @@ img {
     margin-right: 2px;
 }
 
-header {
+div-5 {
     grid-area: hd; 
     text-align: center;
     font-size: 65px;
@@ -59,11 +60,12 @@ div-2{
     grid-area:as;
     background-color: rgb(191, 231, 178);
     text-align:center ;
+    height: 50px;
 }
 div-3 {
     grid-area:mn;
     background-color: rgb(191, 231, 178);
-    height: 500px;
+    height: 250px;
     text-align: center;
 }
 div-4 {
