@@ -21,9 +21,13 @@
    'ft ft';
     
 }
+body{
+    display:flex;
+    flex-direction: column;
+}
 
 img {
-    margin-right: 2px;
+    margin:auto;
 }
 
 div-5 {
