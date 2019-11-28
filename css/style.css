@@ -41,8 +41,9 @@ div-5 {
 div-1 {
     grid-area:nv;
     background-color: rgb(191, 231, 178);
-    height:100px;
+    height:125px;
     text-align: center;
+    text-decoration: brown;
 }
 
 #inner-grid {
