@@ -60,6 +60,7 @@ div-1 {
     border-radius: 10px;
     width: 300px;
     margin: auto;
+    box-shadow: 2px 2px green;
 }
 
 div-2{
@@ -68,6 +69,11 @@ div-2{
     text-align:center ;
     height: 50px;
         
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
 }
 
 div-3 {
