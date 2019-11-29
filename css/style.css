@@ -38,12 +38,15 @@ div-5 {
     font-size: 65px;
     background-color: rgb(191, 231, 178);
     height: 80px;
+    border: solid white;
 }
 div-1 {
     grid-area:nv;
     background-color: rgb(191, 231, 178);
     height: 130px;
     text-align: center;
+    border: solid white;
+
 
 }
 
@@ -63,13 +66,15 @@ div-1 {
     box-shadow: 2px 2px green;
 }
 
-div-2{
+/*div-2{
     grid-area:as;
     background-color: rgb(191, 231, 178);
     text-align:center ;
     height: 50px;
+    border: solid white;
+
         
-}
+}*/
 
 a {
     color: black;
@@ -81,11 +86,15 @@ div-3 {
     background-color: rgb(191, 231, 178);
     height: 250px;
     text-align: center;
+    border: solid white;
+
 }
 div-4 {
     grid-area:ft;
     background-color: rgb(191, 231, 178);
     height: 200px;
     text-align: center;
+    border: solid white;
+
 }
 }
