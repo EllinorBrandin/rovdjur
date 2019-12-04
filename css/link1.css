@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+
+#container {
+    display:grid;
+    height:100vh;
+    grid-template-columns: 2fr 1fr;
+    background-color: white ;
+    /*grid-gap: 12px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-template-areas:
+    
+   
+   'hd hd'
+   'mn mn'
+   'nv nv'
+   'as as'
+   'ft ft';
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+} 
+
+img {
+    margin:auto;
+    padding: px;
+}
+
+}
