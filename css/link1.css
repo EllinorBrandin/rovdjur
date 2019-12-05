@@ -31,13 +31,14 @@ img {
     
 }
 
-div-1 {
+div-10 {
     grid-area: hd; 
     text-align: center;
     font-size: 65px;
     background-color: rgb(191, 231, 178);
     height: 80px;
-    border: solid white;}
+    border: solid white;
+}
 
 div-2 {
     grid-area:mn;
