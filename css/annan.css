@@ -1,0 +1,79 @@
+@media only screen and (max-width: 600px) {
+
+    #container {
+        display:grid;
+         height:200vh;
+         grid-template-columns: 2fr 1fr;
+         background-color: white ;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         grid-template-areas:
+         
+        
+        'hd hd'
+        'mn mn'
+        'nv nv'
+        'as as'
+        'ft ft';
+         
+    }
+    
+    body{
+        display:flex;
+        flex-direction: column;
+    } 
+    
+    img {
+        margin:auto;
+        padding: px;
+        
+    }
+    
+    div-10 {
+        grid-area: hd; 
+        text-align: center;
+        font-size: 35px;
+        background-color: rgb(191, 231, 178);
+        height: 80px;
+        border: solid white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    
+    div-2 {
+        grid-area:mn;
+        background-color: rgb(191, 231, 178);
+        height: 300px;
+        text-align: center;
+        border: solid white;
+        font-size: 19px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    
+    div-3 {
+        grid-area: nv;
+        background-color: rgb(191, 231, 178);
+        height:200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+#glasses {
+display: grid;
+opacity:0.5
+}
+
+#glasses >div {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 450px;
+    height: 90%;
+    margin: auto;
+    /*box-shadow: 2px 2px green; */
+    font-size: 15px;
+    text-align:left;
+    color: black;
+}
+
+    }
